@@ -1,0 +1,15 @@
+---
+name: Frozen Meals
+description: |
+  Non-Pizza frozen meals.
+ingredients:
+  - Lasagna
+  - Orange Chicken
+  - Voila Meal
+optional:
+  - Rice ( if orange chicken )
+steps:
+  - Follow instructions on the box
+tags:
+  - easy
+  - quick
