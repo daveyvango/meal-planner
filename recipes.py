@@ -41,6 +41,6 @@ def subsection(title, list_type, info, handle, readme):
     return
 
 if __name__ == "__main__":
-    recipe_file = "recipes/tacos.yaml"
+    recipe_file = "recipes/lemon_chicken.yaml"
     out_dir = "cookbook"
     convert_to_markdown(recipe_file, out_dir)
