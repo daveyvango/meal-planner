@@ -1,0 +1,17 @@
+---
+name: Recipe Template
+description: |
+  Paragraph is good here. 
+  Give credit where it's due.
+ingredients:
+  # List of ingredients
+  - Ingredient (4 oz)
+  - Meat (2-3 lb)
+optional:
+  # List of optional ingredients
+  - Rice ( if orange chicken )
+steps:
+  - Follow instructions on the box
+tags:
+  - easy
+  - quick

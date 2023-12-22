@@ -1,4 +1,5 @@
 from yaml import dump, load, safe_load
+import sys
 
 def convert_to_markdown(recipe_yaml, out_dir):
     with open(recipe_yaml, 'r') as file:
@@ -41,6 +42,7 @@ def subsection(title, list_type, info, handle, readme):
     return
 
 if __name__ == "__main__":
-    recipe_file = "recipes/lemon_chicken.yaml"
+    recipe_file = sys.argv[1]
+    #recipe_file = "recipes/lemon_chicken.yaml"
     out_dir = "cookbook"
     convert_to_markdown(recipe_file, out_dir)
